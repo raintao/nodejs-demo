@@ -69,7 +69,7 @@ router.post('/dologin',function(req, res){
       if(err){console.log("update err:"+err);}
       console.log("***********update result ***********");
       console.log(result);
-      console.log("************************");
+      console.log("***********over*************");
     });
   });
 
